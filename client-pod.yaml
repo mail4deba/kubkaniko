@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
     - name: client
-      image: debabari/simpleweb
+      image: debabari/simpleweb:v2
       ports:
         - containerPort: 8080
