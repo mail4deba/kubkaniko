@@ -6,9 +6,9 @@ replicaCount: 1
 
 image:
   repository: debabari/simpleweb
-  pullPolicy: Always
+  pullPolicy: Never
   # Overrides the image tag whose default is the chart appVersion.
-  tag: v4
+  tag: latest
 
 imagePullSecrets: []
 nameOverride: ""
